@@ -1,2 +1,0 @@
-# Biswajit-Mitra
-web developer
