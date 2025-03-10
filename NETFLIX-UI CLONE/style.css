@@ -294,9 +294,13 @@ input::placeholder {
   }
 }
 @media screen and (max-width:500px) {
-  nav{
+ nav{
     max-width: 90vw;
     margin-bottom: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
   }
   nav img {
     width: 100px;
@@ -305,10 +309,12 @@ input::placeholder {
   #li {
     font-size: 14px;
     padding: 0 6px;
+    margin-left: 160px;
   }
   .sml {
     font-size: 12px;
     padding: 6px 8px;
+    margin-left:180px ;
   }
   .main{
     height: 60vh;
